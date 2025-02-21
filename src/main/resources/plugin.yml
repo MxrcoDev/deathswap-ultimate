@@ -1,0 +1,27 @@
+name: DeathSwapUltimate
+version: '${project.version}'
+main: marcodev.deathswapultimate.DeathSwapUltimate
+api-version: '1.20'
+load: STARTUP
+commands:
+  deathswap:
+    description: Main admin command
+    usage: /deathswap <setlobby>/<start>
+    permission: deathswap.admin
+  teleport:
+    description: Teleport command
+    usage: /teleport
+    permission: deathswap.teleport
+    aliases:
+      - tp
+      - deathswaptp
+      - teletrasporto
+      - spect
+      - spettatore
+      - spectator
+      - specta
+permissions:
+  deathswap.admin:
+    description: Main admin permission
+  deathswap.teleport:
+    description: Teleport command permission

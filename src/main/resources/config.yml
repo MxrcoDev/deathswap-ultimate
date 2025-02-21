@@ -1,0 +1,30 @@
+# Set up the waiting time for the game to start
+start-cooldown: 15 # Seconds
+
+# Set up the time between one swap and another
+#
+# REMEMBER:
+# Only the last 10 seconds of the cooldown will be written in the chat
+swap-cooldown: 15 # Seconds
+
+# Set up the lobby info ( You can use the /setlobby command in game )
+#
+# REMEMBER:
+# Every time you reload the server you must reuse the /setlobby command in game
+lobby:
+  world: world
+  x: 0
+  y: 64
+  z: 0
+
+# Set up the default game mode when you join the server.
+# Recommended modes are ADVENTURE and SURVIVAL modes
+# It will show a warn in console if SPECTATOR or CREATIVE is set
+default-game-mode: ADVENTURE
+
+# Set up the luckperms' grops in order to use this plugin
+# The default group is the main group before and during the match
+# When you're dead the player switches to the spectators group
+# Set up groups permissions on luckperms plugin
+default-luckperms-group: default
+spectator-luckperms-group: spectators

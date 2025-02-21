@@ -4,6 +4,10 @@
 
 **DeathSwap Ultimate** is a Minecraft plugin that introduces the famous "DeathSwap" game mode. Players are randomly teleported into the world and must try to survive longer than their opponents. Get ready to set traps and outsmart other players to be the last one standing!
 
+## ❗ dependencies
+[![LuckPerms](https://img.shields.io/badge/Dependency-LuckPerms-blue?style=for-the-badge&logo=minecraft)](https://luckperms.net/)
+
+
 ## 🕹️ How It Works?
 - Players start in random positions within the world.
 - Every **minute**, they are randomly teleported to another player's position.
